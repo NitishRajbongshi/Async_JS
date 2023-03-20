@@ -13,7 +13,7 @@ function order(index, callback) {
     }, 2000);
 }
 
-// this is the reason where callback hell is happening here
+// this is the place where callback hell is happening 
 function production() {
     setTimeout(()=>{
         console.log("Production has started");
